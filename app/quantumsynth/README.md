@@ -54,7 +54,7 @@ nexus-ai-manager/
 
 1. **Clone & Setup**
     ```bash
-    git clone https://github.com/your-org/quantumsynth.git
+    git clone https://github.com/KOSASIH/quantumsynth.git
     cd quantumsynth
     go mod tidy
     ```
