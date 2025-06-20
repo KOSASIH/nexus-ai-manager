@@ -99,3 +99,38 @@ security:
   allowed_origins: "*"
 ```
 
+# 🎯 API Endpoints
+
+This document describes the available API endpoints for **Nexus AI Manager**.  
+All endpoints are designed for scalability, security, and extensibility.
+
+---
+
+## Base URL
+
+http://localhost:3000/
+
+---
+
+## Table of Contents
+
+- [Health & Metrics](#health--metrics)
+- [AI Model Management](#ai-model-management)
+- [Inference & Processing](#inference--processing)
+- [Authentication & Security](#authentication--security)
+- [Other Features](#other-features)
+
+---
+
+## Health & Metrics
+
+| Method | Endpoint      | Description               | Payload            |
+|--------|--------------|--------------------------|--------------------|
+| GET    | `/health`    | Health check/status      | None               |
+| GET    | `/metrics`   | Service/server metrics   | None               |
+
+**Example:**
+
+```bash
+curl http://localhost:8080/health
+```
