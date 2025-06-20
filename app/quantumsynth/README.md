@@ -134,3 +134,33 @@ http://localhost:3000/
 ```bash
 curl http://localhost:8080/health
 ```
+
+# 🧠 Extending QuantumSynth
+
+- **Add new quantum modes**: Implement in internal/synth/quantum.go
+- **Add new API endpoints**: Register handlers in api/routes.go
+- **Add new models**: Update model/types.go and synth/processor.go
+- **Add CLI tools**: Extend cmd/main.go with new Cobra commands
+
+# 🧪 Testing
+
+```bash
+go test ./test/...
+```
+
+# 📦 Scripts
+
+- **DB Migrations**: ./scripts/migrate.sh [up|down|status|force]
+- **Setup/Provision**: Extend scripts as needed for enterprise environments
+
+# 🤝 Contributing
+
+Pull requests, issues, and ideas are welcome! Please see CONTRIBUTING.md for guidelines.
+
+# 🛡️ License
+
+[MIT](LICENSE) 
+
+# 🌌 QuantumSynth: The Future of Quantum-Inspired AI
+
+Unmatched power. Boundless possibilities.
