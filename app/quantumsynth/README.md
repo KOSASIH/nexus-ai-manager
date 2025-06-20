@@ -1,6 +1,6 @@
 # QuantumSynth
 
-![QuantumSynth Logo](https://via.placeholder.com/600x150?text=QuantumSynth)
+![QuantumSunth Logo](QuantumSynth.png)
 
 > **QuantumSynth** is an unstoppable, ultra high-tech, feature-rich platform for quantum-inspired AI computation, orchestration, and data synthesis. Designed for scalability, modularity, and unmatched performance, QuantumSynth powers next-generation intelligent systems—from research to production.
 
